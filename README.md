@@ -4,6 +4,7 @@ I'm a self taught developer just tryna have some fun and git gud.
 
 <details>
   <summary>See some cool stats</summary>
+  <br>
   
   Codewars:
   
