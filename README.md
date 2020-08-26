@@ -9,7 +9,7 @@ Check my [github page](https://chromium7.github.io/chromium7/)!
   <summary>See some cool stats</summary>
   <br>
   
-  Codewars:
+  [Codewars](https://www.codewars.com/users/Chromium7):
   
   ![Codewars stats](https://www.codewars.com/users/Chromium7/badges/large)
   <br>
