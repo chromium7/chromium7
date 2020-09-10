@@ -1,14 +1,259 @@
 <!DOCTYPE html>
 <html lang="en">
-	<head>
-		<meta charset="utf-8">
-		<title>Christofer</title>
-		<link rel="stylesheet" type="text/css" href="css/style.css">
-	</head>
-	<body>
-		<h1>Hello World</h1>
-		
 
-		<script href="js/script.js"></script>
-	</body>
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Christofer</title>
+	<link rel='icon' href='favicon.ico' type='image/x-icon' />
+	<link rel="stylesheet" href="css/main.css">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.0.0/animate.min.css" />
+</head>
+
+<body>
+	<nav>
+		<div class="menu" onclick="openMenu(this)">
+			<div class="bar1"></div>
+			<div class="bar2"></div>
+			<div class="bar3"></div>
+		</div>
+		<ul>
+			<li><a href="#home" class="active">Home</a></li>
+			<li><a href="#about">About</a></li>
+			<li><a href="#skills">Skills</a></li>
+			<li><a href="#projects">Projects</a></li>
+			<li><a href="#contact">Contact</a></li>
+		</ul>
+	</nav>
+	<div class="page">
+		<section id="home">
+			<div class="wrapper">
+				<div class="header">
+					<span class="name">Christofer Saputra</span>
+					<span class="occupation">Developer | Designer | Manager</span>
+				</div>
+				<div class="description">
+					Lorem ipsum dolor sit amet consectetur adipisicing elit. Rerum dignissimos earum, libero velit,
+					officia
+					beatae, dolorum suscipit aliquam maxime similique sit? Vel ipsa cupiditate debitis magni similique
+					eligendi facere consectetur!
+				</div>
+				<a href="#about">
+					<button class="btn learn-btn">Learn more</button>
+				</a>
+				<div class="line"></div>
+				<div class="social">
+					<div class="icon">
+						<a href="https://github.com/chromium7/">
+							<img src="/img/github-ico.png" alt="Github">
+						</a>
+					</div>
+					<div class="icon">
+						<a href="https://www.instagram.com/christofer__s/">
+							<img src="/img/insta-ico.png" alt="Instagram">
+						</a>
+					</div>
+					<div class="icon">
+						<a href="https://www.linkedin.com/in/christofer-saputra-722b1b186/">
+							<img src="/img/linkedin-ico.png" alt="LinkedIn">
+						</a>
+					</div>
+					<div class="icon">
+						<a href="https://dribbble.com/chromium07/">
+							<img src="/img/dribbble-ico.png" alt="Dribbble">
+						</a>
+					</div>
+				</div>
+			</div>
+		</section>
+
+		<section id="about">
+			<div class="content">
+				<span class="header">Self-taught developer.</span>
+				<br>
+				<span class="header">Eager to achieve.</span>
+				<div class="text">
+					I work as a full-time manager for my family’s shop. To improve the efficiency of the
+					store, I needed to automate a lot of processes.
+					<br><br>
+					January 2020 was the start of my journey, where I took my first sip of python. When the world went
+					on lockdown, I had more time to explore the world of coding and fell in love with web programming.
+					<br><br>
+					I have done a lot of projects and I’m confident that I will provide high value to my clients or
+					workmates.
+					<br><br>
+					Feel free to check my resume below to learn more about me.
+				</div>
+				<a href="">
+					<button class="btn resume-btn">Download Resume</button>
+				</a>
+			</div>
+			<div class="cube">
+				<div class="face front">
+					<img class="ico" src="img/python.svg" alt="">
+				</div>
+				<div class="face back">
+					<img class="ico" src="img/javascript.svg" alt="">
+				</div>
+				<div class="face right">
+					<img class="ico" src="img/postgresql.svg" alt="">
+				</div>
+				<div class="face left">
+					<img class="ico" src="img/sass.svg" alt="">
+				</div>
+				<div class="face top">
+					<img class="ico" src="img/react.svg" alt="">
+				</div>
+				<div class="face bottom">
+					<img class="ico" src="img/docker.svg" alt="">
+				</div>
+			</div>
+		</section>
+
+		<section id="skills">
+			<div>
+				<span class="title">Skills</span>
+			</div>
+			<div class="wrapper">
+				<div class="section">
+					<div class="header">Front-end</div>
+					<div class="content">
+						<ul>
+							<li>HTML & CSS</li>
+							<li>Bootstrap</li>
+							<li>Sass</li>
+							<li>JavaScript</li>
+							<li>React</li>
+							<li>Redux</li>
+							<li>---------</li>
+							<li>---------</li>
+						</ul>
+					</div>
+				</div>
+				<div class="section">
+					<div class="header">Back-end</div>
+					<div class="content">
+						<ul>
+							<li>Python</li>
+							<li>Django</li>
+							<li>REST Framework</li>
+							<li>Docker</li>
+							<li>GitHub Actions</li>
+							<li>Postgresql</li>
+							<li>Sqlite</li>
+							<li>---------</li>
+						</ul>
+					</div>
+				</div>
+				<div class="section">
+					<div class="header">Utilities</div>
+					<div class="content">
+						<ul>
+							<li>Git & GitHub</li>
+							<li>Jupyter Notebook</li>
+							<li>Figma</li>
+							<li>Heroku</li>
+							<li>---------</li>
+							<li>---------</li>
+							<li>---------</li>
+							<li>---------</li>
+						</ul>
+					</div>
+				</div>
+			</div>
+		</section>
+
+		<section id="projects">
+
+			<div class="title">
+				<div class="header">Projects</div>
+				<span class="subheader">Some fun projects I've done</span>
+			</div>
+
+			<div class="carousel">
+				<div class="card">
+					<img src="" alt="">
+					<div class="card-title">Project 1</div>
+					<div class="text">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Aliquid nam obcaecati
+						nulla
+						architecto excepturi, nisi velit maiores. Modi, dicta tenetur.</div>
+				</div>
+				<div class="card">
+					<img src="" alt="">
+					<div class="card-title">Project 2</div>
+					<div class="text">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Aliquid nam obcaecati
+						nulla
+						architecto excepturi, nisi velit maiores. Modi, dicta tenetur.</div>
+				</div>
+				<div class="card">
+					<img src="" alt="">
+					<div class="card-title">Project 3</div>
+					<div class="text">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Aliquid nam obcaecati
+						nulla
+						architecto excepturi, nisi velit maiores. Modi, dicta tenetur.</div>
+				</div>
+			</div>
+		</section>
+
+		<section id="contact">
+			<div class="wrapper">
+				<div class="header">Get in Touch</div>
+				<div class="subheader">Drop me a message and let's connect!</div>
+				<div class="content">
+					<div class="side">
+						<div class="label">Follow me elsewhere</div>
+						<div class="text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic enim quod
+							necessitatibus
+							tempore magni ipsa minima incidunt facere ratione quas.</div>
+					</div>
+					<form action="https://formspree.io/mayprlqv" method="POST">
+						<input type="hidden" name="_subject" value="Contact request from personal website" />
+						<div class="email">
+							Email address
+							<input type="text" name="_replyto" id="input-email" placeholder="jdoe@example.com">
+						</div>
+						<div class="message">
+							Message
+							<textarea name="message" id="input-message" rows="5"
+								placeholder="Type your message here"></textarea>
+						</div>
+						<button type="submit">Send</button>
+					</form>
+				</div>
+			</div>
+			<a href="#home" class="btn top-btn">top</a>
+		</section>
+	</div>
+	<footer>
+		<div class="wrapper">
+			<div class="icon">
+				<a href="https://github.com/chromium7/">
+					<img src="/img/github-footer.png" alt="Github">
+				</a>
+			</div>
+			<div class="icon">
+				<a href="https://www.instagram.com/christofer__s/">
+					<img src="/img/insta-footer.png" alt="Instagram">
+				</a>
+			</div>
+			<div class="icon">
+				<a href="https://www.linkedin.com/in/christofer-saputra-722b1b186/">
+					<img src="/img/linkedin-footer.png" alt="LinkedIn">
+				</a>
+			</div>
+			<div class="icon">
+				<a href="https://dribbble.com/chromium07/">
+					<img src="/img/dribbble-footer.png" alt="Dribbble">
+				</a>
+			</div>
+		</div>
+	</footer>
+	<script href="js/script.js"></script>
+	<script>
+		function openMenu(x) {
+			x.classList.toggle("change");
+		}
+	</script>
+</body>
+
 </html>

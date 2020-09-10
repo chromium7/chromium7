@@ -1,0 +1,296 @@
+// -----------------------------------------------------------------------------
+// This file contains styles that are specific to the home page.
+// -----------------------------------------------------------------------------
+
+html {
+    scroll-behavior: smooth;
+}
+
+section {
+    height: 100vh;
+    position: relative;
+
+    &#home {
+        overflow: hidden;
+        background: url('/img/home-bg.jpg') no-repeat center center;
+        background-size: cover;
+        text-align: center;
+
+        .wrapper {
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -40%);
+
+            .header {
+                text-align: center;
+
+                .name {
+                    font-family: $title-text-font-stack;
+                    font-size: 2em;
+                    letter-spacing: 0.05em;
+                    filter: drop-shadow($lit-up);
+                    background: $pink-gradient-1;
+                    background-clip: text;
+                    -webkit-background-clip: text;
+                    -webkit-text-fill-color: transparent;
+                    text-transform: uppercase;
+                }
+
+                .occupation {
+                    display: block;
+                    text-transform: uppercase;
+                    color: $green-primary;
+                    font-size: 0.9em;
+                    font-family: $primary-text-font-stack;
+                    width: 100vw;
+                }
+            }
+
+            .description {
+                color: $light-primary;
+                width: 95vw;
+                font-style: italic;
+                margin: 5% auto;
+                font-size: 0.82em;
+            }
+
+            .line {
+                height: 0.5px;
+                line-height: 0.5px;
+                width: 36.111111%
+                    /* 520 / 1440 */
+                ;
+                border: 1px solid $light-primary;
+                margin: 40px auto;
+            }
+        }
+
+        @media only screen and (min-width: 768px) {
+            .wrapper .header .occupation {
+                font-size: 1.2em;
+                width: auto;
+            }
+
+            .wrapper .description {
+                font-size: 1em;
+                width: 50vw;
+            }
+        }
+    }
+
+    &#about {
+        background: linear-gradient(180deg, #16161B 0%, #1B1B21 100%);
+        overflow: hidden;
+        height: 90vh;
+
+        .content {
+            position: absolute;
+            top: 50%;
+            left: 15%;
+            transform: translate(-15%, -45%);
+            text-align: left;
+            font-family: $primary-text-font-stack;
+
+            .header {
+                font-size: 1.8em;
+                background: $green-gradient;
+                background-clip: text;
+                -webkit-background-clip: text;
+                -webkit-text-fill-color: transparent;
+            }
+
+            .text {
+                font-size: 0.8em;
+                color: $light-secondary;
+                margin: 30px auto;
+                width: 600px;
+            }
+        }
+    }
+
+    &#skills {
+        background: linear-gradient(180deg, #1B1B21 0%, #1E1E24 100%);
+        height: 65vh;
+        font-family: $primary-text-font-stack;
+        text-align: center;
+        padding-top: 6%;
+
+        .title {
+            font-size: 1.8em;
+            background: $pink-gradient-1;
+            background-clip: text;
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+        }
+
+        .wrapper {
+            display: inline-flex;
+            border: 5px solid $green-primary;
+            border-radius: 5px;
+            box-shadow: $lit-up;
+            justify-content: center;
+            align-items: center;
+            margin-top: 2%;
+
+            .section {
+                width: 25vw;
+                border-radius: 5px;
+                margin: 0 4%;
+
+                .header {
+                    display: inline-block;
+                    color: $pink-primary;
+                    transform: translateY(-1em);
+                    padding: 0 0.8em;
+                    border: 5px solid $green-primary;
+                    border-radius: 5px;
+                    box-shadow: $lit-up;
+                    background: #1B1B21;
+                }
+
+                .content {
+                    color: $light-primary;
+                    font-size: 0.8em;
+
+                    ul {
+                        text-align: left;
+                        list-style-type: none;
+                        margin-left: 0;
+                        padding-left: 2em;
+
+                        li:before {
+                            content: ">";
+                            padding-right: 1.2em;
+                        }
+                    }
+                }
+            }
+        }
+    }
+
+    &#projects {
+        background: linear-gradient(180deg, #1E1E24 0%, #2B2B34 100%);
+        font-family: $primary-text-font-stack;
+        text-align: center;
+
+        .title {
+            position: absolute;
+            top: 15%;
+            left: 50%;
+            transform: translate(-50%, -15%);
+
+            .header {
+                font-size: 1.8em;
+                color: $pink-primary;
+            }
+        }
+
+        .carousel {
+            position: absolute;
+            top: 65%;
+            left: 50%;
+            transform: translate(-50%, -60%);
+            display: flex;
+            align-items: center;
+            justify-content: center;
+
+            .card {
+                width: 25vw;
+                height: 60vh;
+                margin: 0 3vw;
+                box-shadow: $card-light;
+                display: block;
+
+                img {
+                    width: 90%;
+                    height: 40%;
+                    margin: 10px;
+                }
+
+                .card-title {
+                    text-align: center;
+                    color: $pink-primary;
+                    font-size: 1em;
+                    margin: 5px 0;
+                }
+
+                .text {
+                    text-align: left;
+                    font-size: 0.8em;
+                    color: $light-primary;
+                    padding-left: 1em;
+                }
+            }
+        }
+    }
+
+    &#contact {
+        background: linear-gradient(180deg, #2B2B34 0%, #3C3C47 100%);
+
+        .wrapper {
+            position: absolute;
+            top: 25%;
+            left: 50%;
+            transform: translate(-50%, -25%);
+            text-align: center;
+
+            .header {
+                font-size: 1.8em;
+                color: $pink-primary;
+            }
+
+            .content {
+                display: flex;
+                width: 70vw;
+                text-align: left;
+                margin-top: 2em;
+
+                .side {
+                    width: 30vh;
+                    color: $light-secondary;
+                    margin: 0 2em 1em 0;
+                }
+
+                form {
+                    flex: 1;
+                    color: $light-secondary;
+
+                    input,
+                    textarea {
+                        background-color: $light-primary;
+                        color: $bg-primary;
+                        width: 100%;
+                        outline: none;
+                        line-height: 1.5em;
+                        padding: 0 0.4em;
+                        margin: 0.2em 0 0.4em 0;
+                    }
+
+                    button {
+                        background-color: $light-primary;
+                        color: $pink-dark;
+                        outline: none;
+                        float: right;
+                        clear: both;
+                        padding: 0.2em 1em;
+                    }
+                }
+            }
+        }
+
+        a {
+            position: absolute;
+            bottom: 10%;
+            left: 50%;
+        }
+    }
+}
+
+.subheader {
+    font-size: 1.2em;
+    background: $pink-gradient-1;
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}

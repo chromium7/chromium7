@@ -1,0 +1,41 @@
+// -----------------------------------------------------------------------------
+// This file contains all styles related to the button component.
+// -----------------------------------------------------------------------------
+
+.btn {
+    cursor: pointer;
+    text-align: center;
+    font-family: $primary-text-font-stack;
+    font-weight: 150;
+    font-size: 0.8em;
+    border-radius: 40px;
+    color: $light-primary;
+    outline: none;
+}
+
+.learn-btn {
+    height: 45px;
+    line-height: 100%;
+    background: $pink-gradient-2;
+    border-color: $pink-dark;
+    padding: 0 25px;
+    box-shadow: $lit-up;
+
+    &:hover {
+        animation: pulse 0.5s ease-in-out;
+    }
+}
+
+.resume-btn {
+    height: 45px;
+    line-height: 100%;
+    padding: 0 25px;
+    background: linear-gradient(180deg, #567568 -42.57%, #AECD98 100%);
+    box-shadow: 0px 2px 10px #89B9A5;
+
+    &:hover {
+        animation: pulse 0.5s ease-in-out;
+    }
+}
+
+.top-btn {}
