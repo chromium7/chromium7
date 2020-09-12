@@ -81,19 +81,19 @@ section {
 
     &#about {
         background: linear-gradient(180deg, #16161B 0%, #1B1B21 100%);
-        overflow: hidden;
-        height: 90vh;
+        overflow: visible;
+        height: 100vh;
 
         .content {
             position: absolute;
-            top: 50%;
-            left: 15%;
-            transform: translate(-15%, -45%);
+            top: 10%;
+            left: 23%;
+            transform: translate(-20%, -10%);
             text-align: left;
             font-family: $primary-text-font-stack;
 
             .header {
-                font-size: 1.8em;
+                font-size: 1.5em;
                 background: $green-gradient;
                 background-clip: text;
                 -webkit-background-clip: text;
@@ -101,23 +101,45 @@ section {
             }
 
             .text {
-                font-size: 0.8em;
+                font-size: 0.7em;
                 color: $light-secondary;
-                margin: 30px auto;
-                width: 600px;
+                margin: 3vh auto;
+                width: 90vw;
+            }
+        }
+
+        @media only screen and (min-width: 768px) {
+            height: 90vh;
+            overflow: hidden;
+
+            .content {
+                position: absolute;
+                top: 50%;
+                left: 15%;
+                transform: translate(-15%, -45%);
+
+                .header {
+                    font-size: 1.8em;
+                }
+
+                .text {
+                    font-size: 0.8em;
+                    margin: 30px auto;
+                    width: 600px;
+                }
             }
         }
     }
 
     &#skills {
         background: linear-gradient(180deg, #1B1B21 0%, #1E1E24 100%);
-        height: 65vh;
         font-family: $primary-text-font-stack;
-        text-align: center;
-        padding-top: 6%;
+        height: auto;
+        text-align: left;
+        padding: 6% 5%;
 
         .title {
-            font-size: 1.8em;
+            font-size: 1.5em;
             background: $pink-gradient-1;
             background-clip: text;
             -webkit-background-clip: text;
@@ -125,23 +147,20 @@ section {
         }
 
         .wrapper {
-            display: inline-flex;
+            display: block;
             border: 5px solid $green-primary;
             border-radius: 5px;
             box-shadow: $lit-up;
-            justify-content: center;
-            align-items: center;
-            margin-top: 2%;
+            margin-top: 7%;
 
             .section {
-                width: 25vw;
                 border-radius: 5px;
                 margin: 0 4%;
+                transform: translateY(-1em);
 
                 .header {
                     display: inline-block;
                     color: $pink-primary;
-                    transform: translateY(-1em);
                     padding: 0 0.8em;
                     border: 5px solid $green-primary;
                     border-radius: 5px;
@@ -157,11 +176,68 @@ section {
                         text-align: left;
                         list-style-type: none;
                         margin-left: 0;
-                        padding-left: 2em;
+                        padding-left: 0;
+                        display: flex;
+                        flex-wrap: wrap;
+                        margin: 5px;
+
+                        li {
+                            display: flex;
+                            width: 50%;
+                            padding-right: 1%;
+                            margin-bottom: 2%;
+                        }
 
                         li:before {
                             content: ">";
-                            padding-right: 1.2em;
+                            padding-right: 0.6em;
+                        }
+                    }
+                }
+            }
+        }
+
+        @media only screen and (min-width: 768px) {
+            text-align: center;
+            padding: 2% 0;
+            padding-top: 10vh;
+
+            .title {
+                font-size: 1.8em;
+            }
+
+            .wrapper {
+                display: inline-flex;
+                justify-content: center;
+                align-items: center;
+                margin-top: 5%;
+
+                .section {
+                    width: 25vw;
+                    margin: 0 4%;
+                    transform: none;
+                    padding-bottom: 2%;
+
+                    .header {
+                        transform: translateY(-1em);
+                    }
+
+                    .content {
+
+                        ul {
+                            display: block;
+                            margin: auto;
+
+                            li {
+                                display: block;
+                                width: auto;
+                                padding-right: 0;
+                            }
+
+                            li:before {
+                                content: ">";
+                                padding-right: 1.2em;
+                            }
                         }
                     }
                 }
@@ -172,54 +248,85 @@ section {
     &#projects {
         background: linear-gradient(180deg, #1E1E24 0%, #2B2B34 100%);
         font-family: $primary-text-font-stack;
-        text-align: center;
+        text-align: left;
+        overflow: hidden;
+        height: auto;
 
         .title {
-            position: absolute;
-            top: 15%;
-            left: 50%;
-            transform: translate(-50%, -15%);
+            padding: 6vw 5vw;
 
             .header {
-                font-size: 1.8em;
+                font-size: 1.5em;
                 color: $pink-primary;
             }
         }
 
-        .carousel {
-            position: absolute;
-            top: 65%;
-            left: 50%;
-            transform: translate(-50%, -60%);
-            display: flex;
-            align-items: center;
-            justify-content: center;
+        .carou-wrapper {
+            height: auto;
+            padding: 4vh 2vw;
+            width: 100vw;
+            overflow-x: scroll;
 
-            .card {
-                width: 25vw;
-                height: 60vh;
-                margin: 0 3vw;
-                box-shadow: $card-light;
-                display: block;
+            .carousel {
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                width: fit-content;
 
-                img {
-                    width: 90%;
-                    height: 40%;
-                    margin: 10px;
+                .card {
+                    width: 70vw;
+                    height: 60vh;
+                    margin: 0 3vw;
+                    box-shadow: $card-light;
+                    display: block;
+
+                    img {
+                        width: 90%;
+                        height: 40%;
+                        margin: 10px;
+                    }
+
+                    .card-title {
+                        text-align: center;
+                        color: $pink-primary;
+                        font-size: 1em;
+                        margin: 5px 0;
+                    }
+
+                    .text {
+                        text-align: left;
+                        font-size: 0.8em;
+                        color: $light-primary;
+                        padding-left: 1em;
+                    }
                 }
+            }
+        }
 
-                .card-title {
-                    text-align: center;
-                    color: $pink-primary;
-                    font-size: 1em;
-                    margin: 5px 0;
+
+        @media only screen and (min-width: 768px) {
+            text-align: center;
+
+            .title {
+
+                .header {
+                    font-size: 1.8em;
                 }
+            }
 
-                .text {
-                    text-align: left;
-                    font-size: 0.8em;
-                    color: $light-primary;
-                    padding-left: 1em;
+            .carou-wrapper {
+                height: auto;
+                padding: 4vh 2vw;
+                width: auto;
+                overflow-x: hidden;
+
+                .carousel {
+
+                    .card {
+                        width: 25vw;
+                        height: 60vh;
+                        margin: 0 3vw;
+                    }
                 }
             }
         }
@@ -227,29 +334,26 @@ section {
 
     &#contact {
         background: linear-gradient(180deg, #2B2B34 0%, #3C3C47 100%);
+        height: auto;
+        text-align: center;
 
         .wrapper {
-            position: absolute;
-            top: 25%;
-            left: 50%;
-            transform: translate(-50%, -25%);
-            text-align: center;
+            text-align: left;
+            padding: 6% 5%;
 
             .header {
-                font-size: 1.8em;
+                font-size: 1.5em;
                 color: $pink-primary;
             }
 
             .content {
                 display: flex;
-                width: 70vw;
+                width: 90vw;
                 text-align: left;
                 margin-top: 2em;
 
                 .side {
-                    width: 30vh;
-                    color: $light-secondary;
-                    margin: 0 2em 1em 0;
+                    display: none;
                 }
 
                 form {
@@ -279,10 +383,44 @@ section {
             }
         }
 
-        a {
-            position: absolute;
-            bottom: 10%;
-            left: 50%;
+        .top {
+            margin: 5vh auto;
+
+        }
+
+        @media only screen and (min-width: 768px) {
+            height: 90vh;
+
+            .wrapper {
+                position: absolute;
+                top: 25%;
+                left: 50%;
+                transform: translate(-50%, -25%);
+                text-align: center;
+
+                .header {
+                    font-size: 1.5em;
+                }
+
+                .content {
+                    width: 70vw;
+
+                    .side {
+                        display: block;
+                        width: 30vh;
+                        color: $light-secondary;
+                        margin: 0 2em 1em 0;
+                    }
+                }
+            }
+
+            .top {
+                margin: auto;
+                position: absolute;
+                bottom: 5%;
+                left: 50%;
+                transform: translate(-50%, -5%);
+            }
         }
     }
 }

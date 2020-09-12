@@ -38,4 +38,16 @@
     }
 }
 
-.top-btn {}
+.top-btn {
+
+    color: $pink-dark;
+    background-color: $light-primary;
+    padding: .2vh 1.4vw;
+    font-size: 1.2em;
+    font-weight: bolder;
+
+    &:hover {
+        box-shadow: $lit-up;
+        text-decoration: none;
+    }
+}

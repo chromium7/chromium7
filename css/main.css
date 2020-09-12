@@ -474,7 +474,6 @@ nav {
   height: 7.8125%;
   line-height: 100%;
   /* 80 / 1024 */
-  background-color: #2d2d36;
   display: table;
   z-index: 1000;
 }
@@ -537,6 +536,9 @@ nav ul li a:hover {
 }
 
 @media only screen and (min-width: 768px) {
+  nav {
+    background-color: #2d2d36;
+  }
   nav .menu {
     display: none;
   }
@@ -575,12 +577,16 @@ footer {
 }
 
 footer .wrapper {
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  height: 40px;
-  -webkit-transform: translate(-50%, -50%);
-          transform: translate(-50%, -50%);
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  height: 100%;
 }
 
 .btn {
@@ -623,6 +629,20 @@ footer .wrapper {
 .resume-btn:hover {
   -webkit-animation: pulse 0.5s ease-in-out;
           animation: pulse 0.5s ease-in-out;
+}
+
+.top-btn {
+  color: #983628;
+  background-color: #E5F4E3;
+  padding: .2vh 1.4vw;
+  font-size: 1.2em;
+  font-weight: bolder;
+}
+
+.top-btn:hover {
+  -webkit-box-shadow: 0px 2px 10px #FB9F89;
+          box-shadow: 0px 2px 10px #FB9F89;
+  text-decoration: none;
 }
 
 .icon {
@@ -671,10 +691,11 @@ footer .wrapper {
 
 .cube {
   position: absolute;
-  bottom: 5%;
+  bottom: 10%;
   left: 40%;
   width: 20.83333vw;
   height: 20.83333vw;
+  z-index: 100;
   -webkit-transform-style: preserve-3d;
           transform-style: preserve-3d;
   -webkit-transform: translateZ(-10.41667vw);
@@ -911,22 +932,22 @@ section#home .wrapper .line {
 section#about {
   background: -webkit-gradient(linear, left top, left bottom, from(#16161B), to(#1B1B21));
   background: linear-gradient(180deg, #16161B 0%, #1B1B21 100%);
-  overflow: hidden;
-  height: 90vh;
+  overflow: visible;
+  height: 100vh;
 }
 
 section#about .content {
   position: absolute;
-  top: 50%;
-  left: 15%;
-  -webkit-transform: translate(-15%, -45%);
-          transform: translate(-15%, -45%);
+  top: 10%;
+  left: 23%;
+  -webkit-transform: translate(-20%, -10%);
+          transform: translate(-20%, -10%);
   text-align: left;
   font-family: "Montserrat", "Helvetica", "Arial", sans-serif;
 }
 
 section#about .content .header {
-  font-size: 1.8em;
+  font-size: 1.5em;
   background: -webkit-gradient(linear, left top, right top, from(#567568), to(#AECD98));
   background: linear-gradient(90deg, #567568 0%, #AECD98 100%);
   background-clip: text;
@@ -935,23 +956,45 @@ section#about .content .header {
 }
 
 section#about .content .text {
-  font-size: 0.8em;
+  font-size: 0.7em;
   color: #E5E8B6;
-  margin: 30px auto;
-  width: 600px;
+  margin: 3vh auto;
+  width: 90vw;
+}
+
+@media only screen and (min-width: 768px) {
+  section#about {
+    height: 90vh;
+    overflow: hidden;
+  }
+  section#about .content {
+    position: absolute;
+    top: 50%;
+    left: 15%;
+    -webkit-transform: translate(-15%, -45%);
+            transform: translate(-15%, -45%);
+  }
+  section#about .content .header {
+    font-size: 1.8em;
+  }
+  section#about .content .text {
+    font-size: 0.8em;
+    margin: 30px auto;
+    width: 600px;
+  }
 }
 
 section#skills {
   background: -webkit-gradient(linear, left top, left bottom, from(#1B1B21), to(#1E1E24));
   background: linear-gradient(180deg, #1B1B21 0%, #1E1E24 100%);
-  height: 65vh;
   font-family: "Montserrat", "Helvetica", "Arial", sans-serif;
-  text-align: center;
-  padding-top: 6%;
+  height: auto;
+  text-align: left;
+  padding: 6% 5%;
 }
 
 section#skills .title {
-  font-size: 1.8em;
+  font-size: 1.5em;
   background: linear-gradient(73.22deg, #E9D985 8.09%, #FB9F89 91.91%);
   background-clip: text;
   -webkit-background-clip: text;
@@ -959,33 +1002,24 @@ section#skills .title {
 }
 
 section#skills .wrapper {
-  display: -webkit-inline-box;
-  display: -ms-inline-flexbox;
-  display: inline-flex;
+  display: block;
   border: 5px solid #7F9172;
   border-radius: 5px;
   -webkit-box-shadow: 0px 2px 10px #FB9F89;
           box-shadow: 0px 2px 10px #FB9F89;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  margin-top: 2%;
+  margin-top: 7%;
 }
 
 section#skills .wrapper .section {
-  width: 25vw;
   border-radius: 5px;
   margin: 0 4%;
+  -webkit-transform: translateY(-1em);
+          transform: translateY(-1em);
 }
 
 section#skills .wrapper .section .header {
   display: inline-block;
   color: #FB9F89;
-  -webkit-transform: translateY(-1em);
-          transform: translateY(-1em);
   padding: 0 0.8em;
   border: 5px solid #7F9172;
   border-radius: 5px;
@@ -1003,40 +1037,102 @@ section#skills .wrapper .section .content ul {
   text-align: left;
   list-style-type: none;
   margin-left: 0;
-  padding-left: 2em;
+  padding-left: 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  margin: 5px;
+}
+
+section#skills .wrapper .section .content ul li {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 50%;
+  padding-right: 1%;
+  margin-bottom: 2%;
 }
 
 section#skills .wrapper .section .content ul li:before {
   content: ">";
-  padding-right: 1.2em;
+  padding-right: 0.6em;
+}
+
+@media only screen and (min-width: 768px) {
+  section#skills {
+    text-align: center;
+    padding: 2% 0;
+    padding-top: 10vh;
+  }
+  section#skills .title {
+    font-size: 1.8em;
+  }
+  section#skills .wrapper {
+    display: -webkit-inline-box;
+    display: -ms-inline-flexbox;
+    display: inline-flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    margin-top: 5%;
+  }
+  section#skills .wrapper .section {
+    width: 25vw;
+    margin: 0 4%;
+    -webkit-transform: none;
+            transform: none;
+    padding-bottom: 2%;
+  }
+  section#skills .wrapper .section .header {
+    -webkit-transform: translateY(-1em);
+            transform: translateY(-1em);
+  }
+  section#skills .wrapper .section .content ul {
+    display: block;
+    margin: auto;
+  }
+  section#skills .wrapper .section .content ul li {
+    display: block;
+    width: auto;
+    padding-right: 0;
+  }
+  section#skills .wrapper .section .content ul li:before {
+    content: ">";
+    padding-right: 1.2em;
+  }
 }
 
 section#projects {
   background: -webkit-gradient(linear, left top, left bottom, from(#1E1E24), to(#2B2B34));
   background: linear-gradient(180deg, #1E1E24 0%, #2B2B34 100%);
   font-family: "Montserrat", "Helvetica", "Arial", sans-serif;
-  text-align: center;
+  text-align: left;
+  overflow: hidden;
+  height: auto;
 }
 
 section#projects .title {
-  position: absolute;
-  top: 15%;
-  left: 50%;
-  -webkit-transform: translate(-50%, -15%);
-          transform: translate(-50%, -15%);
+  padding: 6vw 5vw;
 }
 
 section#projects .title .header {
-  font-size: 1.8em;
+  font-size: 1.5em;
   color: #FB9F89;
 }
 
-section#projects .carousel {
-  position: absolute;
-  top: 65%;
-  left: 50%;
-  -webkit-transform: translate(-50%, -60%);
-          transform: translate(-50%, -60%);
+section#projects .carou-wrapper {
+  height: auto;
+  padding: 4vh 2vw;
+  width: 100vw;
+  overflow-x: scroll;
+}
+
+section#projects .carou-wrapper .carousel {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -1046,10 +1142,13 @@ section#projects .carousel {
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
 }
 
-section#projects .carousel .card {
-  width: 25vw;
+section#projects .carou-wrapper .carousel .card {
+  width: 70vw;
   height: 60vh;
   margin: 0 3vw;
   -webkit-box-shadow: 0px 12px 10px 1px rgba(171, 202, 150, 0.7), 0px 5px 5px #567568;
@@ -1057,42 +1156,60 @@ section#projects .carousel .card {
   display: block;
 }
 
-section#projects .carousel .card img {
+section#projects .carou-wrapper .carousel .card img {
   width: 90%;
   height: 40%;
   margin: 10px;
 }
 
-section#projects .carousel .card .card-title {
+section#projects .carou-wrapper .carousel .card .card-title {
   text-align: center;
   color: #FB9F89;
   font-size: 1em;
   margin: 5px 0;
 }
 
-section#projects .carousel .card .text {
+section#projects .carou-wrapper .carousel .card .text {
   text-align: left;
   font-size: 0.8em;
   color: #E5F4E3;
   padding-left: 1em;
 }
 
+@media only screen and (min-width: 768px) {
+  section#projects {
+    text-align: center;
+  }
+  section#projects .title .header {
+    font-size: 1.8em;
+  }
+  section#projects .carou-wrapper {
+    height: auto;
+    padding: 4vh 2vw;
+    width: auto;
+    overflow-x: hidden;
+  }
+  section#projects .carou-wrapper .carousel .card {
+    width: 25vw;
+    height: 60vh;
+    margin: 0 3vw;
+  }
+}
+
 section#contact {
   background: -webkit-gradient(linear, left top, left bottom, from(#2B2B34), to(#3C3C47));
   background: linear-gradient(180deg, #2B2B34 0%, #3C3C47 100%);
-}
-
-section#contact .wrapper {
-  position: absolute;
-  top: 25%;
-  left: 50%;
-  -webkit-transform: translate(-50%, -25%);
-          transform: translate(-50%, -25%);
+  height: auto;
   text-align: center;
 }
 
+section#contact .wrapper {
+  text-align: left;
+  padding: 6% 5%;
+}
+
 section#contact .wrapper .header {
-  font-size: 1.8em;
+  font-size: 1.5em;
   color: #FB9F89;
 }
 
@@ -1100,15 +1217,13 @@ section#contact .wrapper .content {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  width: 70vw;
+  width: 90vw;
   text-align: left;
   margin-top: 2em;
 }
 
 section#contact .wrapper .content .side {
-  width: 30vh;
-  color: #E5E8B6;
-  margin: 0 2em 1em 0;
+  display: none;
 }
 
 section#contact .wrapper .content form {
@@ -1138,10 +1253,42 @@ section#contact .wrapper .content form button {
   padding: 0.2em 1em;
 }
 
-section#contact a {
-  position: absolute;
-  bottom: 10%;
-  left: 50%;
+section#contact .top {
+  margin: 5vh auto;
+}
+
+@media only screen and (min-width: 768px) {
+  section#contact {
+    height: 90vh;
+  }
+  section#contact .wrapper {
+    position: absolute;
+    top: 25%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -25%);
+            transform: translate(-50%, -25%);
+    text-align: center;
+  }
+  section#contact .wrapper .header {
+    font-size: 1.5em;
+  }
+  section#contact .wrapper .content {
+    width: 70vw;
+  }
+  section#contact .wrapper .content .side {
+    display: block;
+    width: 30vh;
+    color: #E5E8B6;
+    margin: 0 2em 1em 0;
+  }
+  section#contact .top {
+    margin: auto;
+    position: absolute;
+    bottom: 5%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -5%);
+            transform: translate(-50%, -5%);
+  }
 }
 
 .subheader {

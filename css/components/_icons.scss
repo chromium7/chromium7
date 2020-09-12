@@ -41,10 +41,11 @@
 
 .cube {
     position: absolute;
-    bottom: 5%;
+    bottom: 10%;
     left: 40%;
     width: $m-cube;
     height: $m-cube;
+    z-index: 100;
 
     transform-style: preserve-3d;
     transform: translateZ(-$m-cube-translate);

@@ -10,7 +10,6 @@ nav {
     height: 7.8125%;
     line-height: 100%;
     /* 80 / 1024 */
-    background-color: $bg-secondary;
     display: table;
     z-index: 1000;
 
@@ -69,6 +68,8 @@ nav {
     }
 
     @media only screen and (min-width:768px) {
+        background-color: $bg-secondary;
+
         .menu {
             display: none;
         }
