@@ -863,7 +863,7 @@ section {
 
 section#home {
   overflow: hidden;
-  background: url("img/home-bg.jpg") no-repeat center center;
+  background: url("./img/home-bg.jpg") no-repeat center center;
   background-size: cover;
   text-align: center;
 }
