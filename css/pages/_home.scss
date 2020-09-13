@@ -83,12 +83,10 @@ section {
         background: linear-gradient(180deg, #16161B 0%, #1B1B21 100%);
         overflow: visible;
         height: 100vh;
+        padding: 6% 5%;
 
         .content {
-            position: absolute;
-            top: 10%;
-            left: 23%;
-            transform: translate(-20%, -10%);
+            position: block;
             text-align: left;
             font-family: $primary-text-font-stack;
 
@@ -336,6 +334,7 @@ section {
         background: linear-gradient(180deg, #2B2B34 0%, #3C3C47 100%);
         height: auto;
         text-align: center;
+        padding-bottom: 5vh;
 
         .wrapper {
             text-align: left;
@@ -381,11 +380,6 @@ section {
                     }
                 }
             }
-        }
-
-        .top {
-            margin: 5vh auto;
-
         }
 
         @media only screen and (min-width: 768px) {
