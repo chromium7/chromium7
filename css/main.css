@@ -1048,6 +1048,7 @@ section#home .wrapper .header .name {
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   text-transform: uppercase;
+  overflow-wrap: break-word;
 }
 
 section#home .wrapper .header .occupation {
@@ -1303,7 +1304,7 @@ section#projects .carou-wrapper .carousel {
 
 section#projects .carou-wrapper .carousel .card {
   width: 70vw;
-  height: 60vh;
+  height: 70vh;
   margin: 0 3vw;
   -webkit-box-shadow: 0px 12px 10px 1px rgba(171, 202, 150, 0.7), 0px 5px 5px #567568;
           box-shadow: 0px 12px 10px 1px rgba(171, 202, 150, 0.7), 0px 5px 5px #567568;

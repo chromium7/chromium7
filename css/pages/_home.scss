@@ -35,6 +35,7 @@ section {
           -webkit-background-clip: text;
           -webkit-text-fill-color: transparent;
           text-transform: uppercase;
+          overflow-wrap: break-word;
         }
 
         .occupation {
@@ -270,7 +271,7 @@ section {
 
         .card {
           width: 70vw;
-          height: 60vh;
+          height: 70vh;
           margin: 0 3vw;
           box-shadow: $card-light;
           display: block;
