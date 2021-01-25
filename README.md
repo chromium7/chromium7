@@ -18,6 +18,7 @@ Check my [github page](https://chromium7.github.io/chromium7/)!
   - SQL
   - django, flask
   - django rest framework
+  - Bootstrap
   - vue.js
   - react.js
   
@@ -25,6 +26,7 @@ Check my [github page](https://chromium7.github.io/chromium7/)!
   
   - Docker
   - Git
+  - redis
   - Figma
   - GIMP
   - Inkscape
