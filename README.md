@@ -1,13 +1,33 @@
-# the programming bro
+# Programming brother
 
-I'm a self taught developer just tryna have some fun and git gud.
+Ambitious and passionate in technologies, I am a self taught developer who love to learn and create!
 
 Check my [github page](https://chromium7.github.io/chromium7/)!
 
 
 <details>
-  <summary>See some cool stats</summary>
-  <br>
+  <summary>See skills and other statistics</summary>
+  
+  #### Languages and Frameworks:
+  
+  - Python
+  - JavaScript
+  - C
+  - HTML
+  - CSS and SCSS
+  - SQL
+  - django, flask
+  - django rest framework
+  - vue.js
+  - react.js
+  
+  #### Tools:
+  
+  - Docker
+  - Git
+  - Figma
+  - GIMP
+  - Inkscape
   
   [Codewars](https://www.codewars.com/users/Chromium7):
   
