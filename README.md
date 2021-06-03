@@ -5,20 +5,21 @@
 
 Check my [github page](https://chromium7.github.io/chromium7/)!
 
-- 🔭 I’m currently working on [image manipulation web app](https://github.com/chromium7/django-image-manipulation)
+- 🔭 I’m currently working on: [image manipulation web app](https://github.com/chromium7/django-image-manipulation)
 
-- 🌱 I’m currently learning **message brokers**
+- 🌱 I’m currently learning: **message brokers**
 
-- 👨‍💻 All of my projects are available at [https://github.com/chromium7](https://github.com/chromium7)
+- 👨‍💻 All of my projects are available at: [https://github.com/chromium7](https://github.com/chromium7)
 
-- 💬 Ask me about **python, django and React**
+- 💬 Ask me about: **python, django and React**
 
-- 📫 How to reach me **christofersaputra29@gmail.com**
+- 📫 How to reach me: **christofersaputra29@gmail.com**
 
 <h3 align="left">Connect with me:</h3>
 <p align="left">
-<a href="https://linkedin.com/in/christofer-saputra-722b1b186" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/neutral-icons/src/images/icons/Social/linked-in-alt.svg" alt="christofer-saputra-722b1b186" height="30" width="40" /></a>
-<a href="https://instagram.com/chromium_swe" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/neutral-icons/src/images/icons/Social/instagram.svg" alt="chromium_swe" height="30" width="40" /></a>
+<a href="https://linkedin.com/in/christofer-saputra-722b1b186" target="blank">LinkedIn</a></p>
+<p>
+<a href="https://instagram.com/chromium_swe" target="blank">Instagram</a>
 </p>
 
 <h3 align="left">Languages and Tools:</h3>
