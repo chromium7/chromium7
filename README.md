@@ -5,13 +5,13 @@
 
 Check my [github page](https://chromium7.github.io/chromium7/)!
 
-- 🔭 I’m currently working on: [image manipulation web app](https://github.com/chromium7/django-image-manipulation)
+- 🔭 I’m currently working on: [django pizza](https://github.com/chromium7/django_pizza)
 
-- 🌱 I’m currently learning: **message brokers**
+- 🌱 I’m currently learning: **redis, 3D modelling (blender)**
 
 - 👨‍💻 All of my projects are available at: [https://github.com/chromium7](https://github.com/chromium7)
 
-- 💬 Ask me about: **python, django and React**
+- 💬 Ask me about: **python, react.js and food**
 
 - 📫 How to reach me: **christofersaputra29@gmail.com**
 
