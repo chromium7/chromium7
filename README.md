@@ -7,7 +7,7 @@ Check my [github page](https://chromium7.github.io/chromium7/)!
 
 - 🔭 I’m currently working on: [django pizza](https://github.com/chromium7/django_pizza)
 
-- 🌱 I’m currently learning: **redis, 3D modelling (blender)**
+- 🌱 I’m currently learning: **redis, docker, 3D modelling (blender)**
 
 - 👨‍💻 All of my projects are available at: [https://github.com/chromium7](https://github.com/chromium7)
 
@@ -37,4 +37,8 @@ Check my [github page](https://chromium7.github.io/chromium7/)!
 <p>&nbsp;<img align="center" src="https://github-readme-stats.vercel.app/api?username=chromium7&show_icons=true&locale=en&theme=darcula" alt="chromium7" /></p>
 
 <p><img align="center" src="https://github-readme-streak-stats.herokuapp.com/?user=chromium7&theme=darcula" alt="chromium7" /></p>
+
+<p>If you're wondering how I got a long streak of commit, thats because I commit two leetcode excercise answers everyday. You can check out my <a href="https://leetcode.com/Chromium7/"> leetcode profile here.</a></p>
+
 </details>
+
