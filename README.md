@@ -7,7 +7,7 @@ Check my [github page](https://chromium7.github.io/chromium7/)!
 
 - 🔭 I’m currently working on: [django pizza](https://github.com/chromium7/django_pizza)
 
-- 🌱 I’m currently learning: **redis, docker, 3D modelling (blender)**
+- 🌱 I’m currently learning: **go, graphql, docker, 3D modelling (blender)**
 
 - 👨‍💻 All of my projects are available at: [https://github.com/chromium7](https://github.com/chromium7)
 
