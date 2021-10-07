@@ -7,7 +7,7 @@ Check my [github page](https://chromium7.github.io/chromium7/)!
 
 - 🔭 I’m currently working on: golang projects
 
-- 🌱 I’m currently learning: **go**
+- 🌱 I’m currently learning: **go, music**
 
 - 👨‍💻 All of my projects are available at: [https://github.com/chromium7](https://github.com/chromium7)
 
