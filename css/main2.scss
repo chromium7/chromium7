@@ -1,0 +1,81 @@
+@import 'base/fonts';
+
+// Variables
+$dark: #121113;
+$dark-green: #222725;
+$green: #899878;
+$light-green: #e4e6c3;
+$light: #f7f7f2;
+$montserrat: 'Montserrat', sans-serif;
+
+// Clear
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    color: $light;
+    font-family: $montserrat;
+}
+
+body {
+    margin: 82px 26px;
+    background: $dark;
+}
+
+h1 {
+    color: $light-green;
+    text-align: center;
+}
+
+a {
+    display: inline-block;
+    position: relative;
+    text-decoration: none;
+    transition: all 0.2s ease-in-out;
+
+    &::after {
+        content: '';
+        width: 100%;
+        position: absolute;
+        left: 0;
+        right: 0;
+        top: 100%;
+        background: $green;
+        height: 2px;
+        opacity: 0;
+        transform: translateX(-100%);
+        transition: all 0.2s ease-in-out;
+    }
+
+    &:hover {
+        color: $green;
+
+        &::after {
+            opacity: 1;
+            transform: translateX(0);
+        }
+    }
+}
+
+.hide {
+    display: none;
+}
+
+.menu {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 20px;
+    height: 60px;
+}
+
+
+// Mobile styling
+
+
+@media only screen and (min-width: 768px) {
+    // Desktop styling
+    body {
+        margin: 82px auto;
+    }
+}
