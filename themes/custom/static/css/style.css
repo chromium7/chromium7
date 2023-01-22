@@ -1,11 +1,4 @@
 @font-face {
-  font-family: "League Spartan";
-  src: url("../fonts/league_spartan/7cc8cbbd7a330c0d1e7c08c6d62711e4.eot");
-  /* IE9*/
-  src: url("../fonts/league_spartan/7cc8cbbd7a330c0d1e7c08c6d62711e4.eot?#iefix") format("embedded-opentype"), url("../fonts/league_spartan/7cc8cbbd7a330c0d1e7c08c6d62711e4.woff2") format("woff2"), url("../fonts/league_spartan/7cc8cbbd7a330c0d1e7c08c6d62711e4.woff") format("woff"), url("../fonts/league_spartan/7cc8cbbd7a330c0d1e7c08c6d62711e4.ttf") format("truetype"), url("../fonts/league_spartan/7cc8cbbd7a330c0d1e7c08c6d62711e4.svg#League Spartan Regular") format("svg");
-  /* iOS 4.1- */
-}
-@font-face {
   font-family: "Montserrat";
   src: url("../fonts/montserrat/5fc6f4fd75e944a52a342ab2c7f100f1.eot");
   /* IE9*/
@@ -13,11 +6,8 @@
   /* iOS 4.1- */
 }
 @font-face {
-  font-family: "Varela";
-  src: url("../fonts/varela/3166671c1a8144eea28664fc2f5eff67.eot");
-  /* IE9*/
-  src: url("../fonts/varela/3166671c1a8144eea28664fc2f5eff67.eot?#iefix") format("embedded-opentype"), url("../fonts/varela/3166671c1a8144eea28664fc2f5eff67.woff2") format("woff2"), url("../fonts/varela/3166671c1a8144eea28664fc2f5eff67.woff") format("woff"), url("../fonts/varela/3166671c1a8144eea28664fc2f5eff67.ttf") format("truetype"), url("../fonts/varela/3166671c1a8144eea28664fc2f5eff67.svg#Varela") format("svg");
-  /* iOS 4.1- */
+  font-family: "Inconsolata";
+  src: url("../fonts/inconsolata/Inconsolata-Regular.ttf") format("truetype");
 }
 :root {
   --theme-color: #4c5c6a;
@@ -155,17 +145,19 @@ ul {
   background-image: url("/theme/images/moon.png");
 }
 
-section.full {
+section {
   min-height: 100vh;
   width: 100%;
   height: 100%;
   display: grid;
   place-items: center;
 }
-
-.home-intro {
+section .page {
   width: 95%;
   height: 95%;
+}
+
+.home-intro {
   border-radius: 15px;
   background-image: url("/theme/images/home-bg.svg");
   display: grid;
@@ -185,6 +177,32 @@ section.full {
   width: 1.75rem;
   display: inline-block;
   fill: var(--primary-color);
+}
+
+.projects {
+  max-width: 1440px;
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}
+.projects h1 {
+  font-family: "Inconsolata", monospace;
+  font-size: 2.5rem;
+  text-align: center;
+  text-transform: uppercase;
+}
+.projects h3 {
+  font-family: "Inconsolata", monospace;
+  text-transform: uppercase;
+}
+.projects__wrapper {
+  display: flex;
+  gap: 2rem;
+  justify-content: center;
+}
+.projects__wrapper--right {
+  flex-direction: row-reverse;
+  text-align: right;
 }
 
 .scroll {
@@ -209,6 +227,9 @@ section.full {
 }
 
 @media only screen and (min-width: 768px) {
+  section .page {
+    height: 90%;
+  }
   .app-header {
     top: 65px;
   }
@@ -216,7 +237,6 @@ section.full {
     bottom: 65px;
   }
   .home-intro {
-    height: 90%;
     font-size: 2rem;
   }
 }
