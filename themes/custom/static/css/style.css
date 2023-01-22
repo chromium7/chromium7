@@ -20,17 +20,17 @@
   /* iOS 4.1- */
 }
 :root {
-  --theme-color: #899878;
+  --theme-color: #4c5c6a;
   --theme-secondary-color: #987879;
   --primary-color: #121113;
   --secondary-color: #20232A;
-  --primary-bg-color: #e4e6c3;
+  --primary-bg-color: #f2f4f1;
   --secondary-bg-color: #f7f7f2;
   --tertiary-bg-color: #222725;
 }
 
 [data-theme=dark] {
-  --theme-color: #899878;
+  --theme-color: #4c5c6a;
   --theme-secondary-color: #987879;
   --primary-color: #f7f7f2;
   --secondary-color: #e4e6c3;
@@ -74,7 +74,7 @@ a::after {
   background: var(--theme-color);
   height: 2px;
   opacity: 0;
-  transform: translateX(-100%);
+  transform: translateX(-20%);
   transition: all 0.2s ease-in-out;
   pointer-events: none;
 }
@@ -149,10 +149,42 @@ ul {
   background-repeat: no-repeat;
 }
 .app-header__switch-i.sun {
-  background-image: url("/img/sun.png");
+  background-image: url("/theme/images/sun.png");
 }
 .app-header__switch-i.moon {
-  background-image: url("/img/moon.png");
+  background-image: url("/theme/images/moon.png");
+}
+
+section.full {
+  min-height: 100vh;
+  width: 100%;
+  height: 100%;
+  display: grid;
+  place-items: center;
+}
+
+.home-intro {
+  width: 95%;
+  height: 95%;
+  border-radius: 15px;
+  background-image: url("/theme/images/home-bg.svg");
+  display: grid;
+  place-items: center;
+  font-size: 1.25rem;
+}
+.home-intro__wrapper {
+  width: 72.5%;
+}
+.home-intro__btn {
+  margin-top: 2rem;
+  display: flex;
+  align-items: center;
+  gap: 1.5rem;
+}
+.home-intro__btn svg {
+  width: 1.75rem;
+  display: inline-block;
+  fill: var(--primary-color);
 }
 
 .scroll {
@@ -182,6 +214,10 @@ ul {
   }
   .scroll {
     bottom: 65px;
+  }
+  .home-intro {
+    height: 90%;
+    font-size: 2rem;
   }
 }
 @-webkit-keyframes bounce {
@@ -229,4 +265,4 @@ ul {
   100% {
     transform: scale(1, 1) translateY(0.1rem);
   }
-}/*# sourceMappingURL=main2.css.map */
+}/*# sourceMappingURL=style.css.map */
