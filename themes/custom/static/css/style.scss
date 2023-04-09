@@ -176,15 +176,6 @@ ul {
             aspect-ratio: 1;
             background-size: 100%;
             background-repeat: no-repeat;
-
-            &.sun {
-                background-image: url('/theme/images/sun.png');
-            }
-
-
-            &.moon {
-                background-image: url('/theme/images/moon.png');
-            }
         }
     }
 }
