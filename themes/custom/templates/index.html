@@ -8,7 +8,7 @@
                 <br>
                 I'm Christofer Saputra, a fullstack engineer specializing in backend and web development.
                 <br>
-                I build <u>meaningful</u>, <u>performant</u> and <u>maintainable</u> programs.
+                I build meaningful, performant and maintainable programs.
             </p>
             <div class="home-intro__btn">
                 <svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 267 176.1" xml:space="preserve">
@@ -23,20 +23,36 @@
     <div class="page projects">
         <h1>Projects</h1>
         <div class="projects__wrapper projects__wrapper--left">
-            <img src="#" alt="Web" class="projects__img">
+            <picture>
+                <source srcset="{{ SITEURL }}/theme/images/onebunda.webp" type="image/webp">
+                <source srcset="{{ SITEURL }}/theme/images/onebunda.png" type="image/png">
+                <img src="{{ SITEURL }}/theme/images/onebunda.png" alt="OneBunda" class="projects__img">
+            </picture>
             <div class="projects__content">
                 <h3>Lead Engineer</h3>
-                <h2>Web Development</h2>
+                <h2>OneBunda</h2>
                 <ul>
                     <li>Django</li>
                     <li>PostgreSQL</li>
                     <li>Redis</li>
+                    <li>SCSS</li>
+                    <li>JavaScript</li>
                 </ul>
-                <p>Build a bunch of stuffs</p>
+                <p>
+                    A progressive web app online reservation system that allows user to create offline or online appointment with
+                    their desired doctor. Integrated with external services such for payment, WhatsApp notifications,
+                    membership management, and more.
+                </p>
+                <br>
+                <a href="https://onebunda.com" class="static" target="_blank">View Site</a>
             </div>
         </div>
         <div class="projects__wrapper projects__wrapper--right">
-            <img src="#" alt="Kiosk" class="projects__img">
+            <picture>
+                <source srcset="{{ SITEURL }}/theme/images/kiosk-1.webp" type="image/webp">
+                <source srcset="{{ SITEURL }}/theme/images/kiosk-1.png" type="image/png">
+                <img src="{{ SITEURL }}/theme/images/kiosk-1.png" alt="OneBunda" class="projects__img">
+            </picture>
             <div class="projects__content">
                 <h3>Fullstack Engineer</h3>
                 <h2>Kiosk</h2>
@@ -44,9 +60,19 @@
                     <li>Django</li>
                     <li>Docker</li>
                     <li>IOT</li>
+                    <li>SCSS</li>
+                    <li>JavaScript</li>
                 </ul>
-                <p>Handle frontend, backend, deployment and maintenance</p>
+                <p>
+                    A maintainable and reusable self service kiosk system,
+                    which has been deployed in more than 40 devices (and counting).
+                    Each kiosk system can be accessed remotely and can be easily updated
+                    by admin in a centralized dashboard.
+                </p>
             </div>
+        </div>
+        <div class="projects__more">
+            <a href="{{ SITEURL }}/pages/about#projects" class="clear">... and more over here!</a>
         </div>
     </div>
 </section>
