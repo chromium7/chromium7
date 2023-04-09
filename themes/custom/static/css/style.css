@@ -150,12 +150,6 @@ ul {
   background-size: 100%;
   background-repeat: no-repeat;
 }
-.app-header__switch-i.sun {
-  background-image: url("/theme/images/sun.png");
-}
-.app-header__switch-i.moon {
-  background-image: url("/theme/images/moon.png");
-}
 
 .app-footer {
   background: var(--theme-secondary-color);
