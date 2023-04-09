@@ -11,8 +11,6 @@ Check my [github page](https://chromium7.github.io/chromium7/)!
 
 - 👨‍💻 All of my projects are available at: [https://github.com/chromium7](https://github.com/chromium7)
 
-- 💬 Ask me about: **python, react.js and food**
-
 - 📫 How to reach me: **christofersaputra29@gmail.com**
 
 <h3 align="left">Connect with me:</h3>
@@ -41,4 +39,3 @@ Check my [github page](https://chromium7.github.io/chromium7/)!
 <p>If you're wondering how I got a long streak of commit, thats because I commit two leetcode excercise answers everyday. You can check out my <a href="https://leetcode.com/Chromium7/"> leetcode profile here.</a></p>
 
 </details>
-

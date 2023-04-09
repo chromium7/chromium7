@@ -1,0 +1,11 @@
+Useful tools to use
+excalidraw
+https://excalidraw.com/
+https://fffuel.co/
+
+For development:
+- to create static pages, create an `md` file in `/content/pages/...`
+- create an html in `/themes/custom/...`
+- run server with `make devserver`
+- generate actual content with `make content`
+- copy generated content in `/output` to home directory to deploy to github pages
