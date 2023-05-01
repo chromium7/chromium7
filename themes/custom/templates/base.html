@@ -59,7 +59,6 @@
                 </a>
                 <div class="app-header__buttons">
                     <a href="{{ SITEURL }}/pages/blogs" class="app-header__link">Blogs</a>
-                    <a href="{{ SITEURL }}/pages/tools" class="app-header__link">Tools</a>
                     <a href="{{ SITEURL }}/pages/about" class="app-header__link">About</a>
                     <label href="#" class="app-header__switch">
                         <input type="checkbox" class="app-header__switch-input"/>
@@ -97,11 +96,15 @@
                             </a>
                         </li>
                     </ul>
-                    <p>Built by Christofer Saputra 2023</p>
+                    <div class="app-footer__text">
+                        <div>&#169; Christofer Saputra 2023</div>
+                        <div class="separator"></div>
+                        <a href="{{ SITEURL }}/pages/credits">Credits</a>
+                    </div>
                 </div>
             </div>
         </footer>
     </main>
-    <script src="{{ SITEURL }}/theme/js/script.js"></script>
+    <script defer src="{{ SITEURL }}/theme/js/script.js"></script>
 </body>
 </html>
