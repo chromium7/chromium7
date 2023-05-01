@@ -1,7 +1,6 @@
 AUTHOR = 'Christofer Saputra'
 SITENAME = 'Christofer'
 SITEURL = 'https://chromium7.github.io/chromium7/'
-SITEURL = ''
 
 PATH = 'content'
 
