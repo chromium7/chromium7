@@ -167,27 +167,35 @@ ul {
   justify-content: center;
   align-items: center;
 }
-.app-footer a {
+.app-footer ul a {
   display: flex;
   padding: 0.6rem;
   border: 1px solid var(--light);
   border-radius: 50%;
 }
-.app-footer a svg path {
+.app-footer ul a svg path {
   fill: var(--light);
 }
-.app-footer a:hover {
+.app-footer ul a:hover {
   background: var(--light);
 }
-.app-footer a:hover svg path {
+.app-footer ul a:hover svg path {
   fill: var(--theme-secondary-color);
 }
-.app-footer a::after {
+.app-footer ul a::after {
   width: 0;
 }
-.app-footer p {
+.app-footer__text {
   margin-top: 1.2rem;
   color: var(--light);
+  display: flex;
+  gap: 0.5rem;
+  justify-content: center;
+}
+.app-footer__text .separator {
+  width: 1px;
+  height: 1.2rem;
+  background: var(--light);
 }
 
 section {
@@ -273,6 +281,21 @@ section .page {
 }
 .projects__more {
   text-align: center;
+}
+
+.tools {
+  max-width: 540px;
+}
+.tools ul {
+  margin: 1rem;
+  list-style: disc;
+}
+.tools li {
+  margin: 0.4rem 0;
+}
+.tools a::after {
+  opacity: 1;
+  transform: translateX(0);
 }
 
 .coming-soon {
