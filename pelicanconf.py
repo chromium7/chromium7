@@ -1,6 +1,7 @@
 AUTHOR = 'Christofer Saputra'
 SITENAME = 'Christofer'
 SITEURL = 'https://chromium7.github.io/chromium7/'
+# SITEURL = 'http://127.0.0.1:8000/'
 
 PATH = 'content'
 

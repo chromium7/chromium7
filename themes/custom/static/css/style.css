@@ -219,6 +219,9 @@ section h3 {
 section .page {
   width: 95%;
 }
+section .page--sm {
+  max-width: 540px;
+}
 
 .home-intro {
   border-radius: 15px;
@@ -283,18 +286,43 @@ section .page {
   text-align: center;
 }
 
-.tools {
-  max-width: 540px;
-}
-.tools ul {
+.about ul,
+.credits ul {
   margin: 1rem;
   list-style: disc;
 }
-.tools li {
+.about li,
+.credits li {
   margin: 0.4rem 0;
 }
-.tools a::after {
+.about a::after,
+.credits a::after {
   opacity: 1;
+  transform: translateX(0);
+}
+
+.tools {
+  margin-top: 20%;
+}
+.tools ul {
+  margin: 1rem;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 6px;
+}
+.tools li {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+.tools img {
+  -o-object-fit: contain;
+     object-fit: contain;
+  width: 40px;
+  height: 40px;
+}
+.tools a::after {
+  opacity: 0;
   transform: translateX(0);
 }
 
@@ -340,6 +368,9 @@ section .page {
   }
   .projects__content {
     padding: 0;
+  }
+  .tools {
+    margin-top: 5%;
   }
 }
 @keyframes bounce {
