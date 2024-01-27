@@ -1,3 +1,3 @@
-Title: About Us
+Title: About
 Slug: about
-Template: coming_soon
+Template: about
