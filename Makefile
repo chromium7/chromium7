@@ -68,12 +68,11 @@ devserver:
 devserver-global:
 	$(PELICAN) -lr $(INPUTDIR) -o $(OUTPUTDIR) -s $(CONFFILE) $(PELICANOPTS) -b 0.0.0.0
 
-publish-changes:
-	rm -rf pages
-	cp -r "$(OUTPUTDIR)"/pages "$(BASEDIR)"
-	rm -rf theme
-	cp -r "$(OUTPUTDIR)"/theme "$(BASEDIR)"
-	rm -f index.html
-	cp "$(OUTPUTDIR)"/index.html "$(BASEDIR)"
+publish:
+	"$(PELICAN)" "$(INPUTDIR)" -o "$(OUTPUTDIR)" -s "$(PUBLISHCONF)" $(PELICANOPTS)
+
+github: publish
+	ghp-import -n "$(OUTPUTDIR)" -b gh-pages
+	git push -f origin gh-pages
 
 .PHONY: html help clean regenerate serve serve-global devserver publish github
