@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom"><title>Christofer - News</title><link href="https://chromium7.github.io/chromium7/" rel="alternate"></link><link href="https://chromium7.github.io/chromium7/feeds/news.atom.xml" rel="self"></link><id>https://chromium7.github.io/chromium7/</id><updated>2021-03-01T00:00:00+07:00</updated><entry><title>A sample article 01</title><link href="https://chromium7.github.io/chromium7/a-sample-article-01.html" rel="alternate"></link><published>2021-03-01T00:00:00+07:00</published><updated>2021-03-01T00:00:00+07:00</updated><author><name>Christofer Saputra</name></author><id>tag:chromium7.github.io,2021-03-01:/chromium7/a-sample-article-01.html</id><summary type="html">&lt;p&gt;Summary of post 01&lt;/p&gt;</summary><content type="html">&lt;h2&gt;Noctis ore dotabere desit Iuppiter rerum&lt;/h2&gt;
+&lt;h3&gt;Pater annum tibi hic magis sequitur Scylla&lt;/h3&gt;
+&lt;p&gt;Lorem markdownum nil de, amor Aeacides silva, qui fuga facies. Virorum inferior
+repugnas spatii prohibebat cupio. Ille in mirabile generosaque et onus aut
+Cephalus sive super valle letalibus potius Medon fuit prima ramis hostia
+sacerdotes cingitur. Ut inde in conlegit, inquit tamen; dei quoque. Forti moenia
+habeto indicio et certe.&lt;/p&gt;
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;code&gt;&lt;span class="k"&gt;if&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="nx"&gt;link&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="nx"&gt;dslNewline&lt;/span&gt;&lt;span class="p"&gt;))&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="p"&gt;{&lt;/span&gt;
+&lt;span class="w"&gt;    &lt;/span&gt;&lt;span class="nx"&gt;disk&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="nx"&gt;webmailDefragment&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="o"&gt;+&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="nx"&gt;ddr_hyperlink&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="nx"&gt;horse_newline_jsp&lt;/span&gt;&lt;span class="p"&gt;);&lt;/span&gt;
+&lt;span class="w"&gt;    &lt;/span&gt;&lt;span class="nx"&gt;party_peripheral_iphone&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="p"&gt;=&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="nx"&gt;rpc_eps&lt;/span&gt;&lt;span class="p"&gt;;&lt;/span&gt;
+&lt;span class="p"&gt;}&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="k"&gt;else&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="p"&gt;{&lt;/span&gt;
+&lt;span class="w"&gt;    &lt;/span&gt;&lt;span class="nx"&gt;camera_clip_office&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="p"&gt;=&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="nx"&gt;mmsHard&lt;/span&gt;&lt;span class="p"&gt;;&lt;/span&gt;
+&lt;span class="w"&gt;    &lt;/span&gt;&lt;span class="nx"&gt;method_apple_circuit&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="o"&gt;+=&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="nx"&gt;service_processor_open&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="nx"&gt;gui_url_chip&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="mi"&gt;21&lt;/span&gt;&lt;span class="p"&gt;);&lt;/span&gt;
+&lt;span class="w"&gt;    &lt;/span&gt;&lt;span class="nx"&gt;coreDefaultOpacity&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="nx"&gt;streaming&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="nx"&gt;digital_commerce&lt;/span&gt;&lt;span class="p"&gt;);&lt;/span&gt;
+&lt;span class="p"&gt;}&lt;/span&gt;
+&lt;span class="k"&gt;if&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="nx"&gt;tiff_parameter_address&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="o"&gt;-&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="nx"&gt;inboxJsfDaemon&lt;/span&gt;&lt;span class="p"&gt;)&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="p"&gt;{&lt;/span&gt;
+&lt;span class="w"&gt;    &lt;/span&gt;&lt;span class="nx"&gt;traceroute_beta&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="p"&gt;=&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="mi"&gt;73&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="o"&gt;+&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="nx"&gt;page_pebibyte&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="nx"&gt;bot_koffice_kde&lt;/span&gt;&lt;span class="p"&gt;);&lt;/span&gt;
+&lt;span class="w"&gt;    &lt;/span&gt;&lt;span class="nx"&gt;rwMinicomputerVeronica&lt;/span&gt;&lt;span class="p"&gt;.&lt;/span&gt;&lt;span class="nx"&gt;hsf&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="p"&gt;=&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="nx"&gt;active_ethernet_web&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="nx"&gt;null_disk_asp&lt;/span&gt;&lt;span class="p"&gt;);&lt;/span&gt;
+&lt;span class="p"&gt;}&lt;/span&gt;
+&lt;span class="nx"&gt;controllerScroll&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="p"&gt;=&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="nx"&gt;system&lt;/span&gt;&lt;span class="p"&gt;;&lt;/span&gt;
+&lt;span class="k"&gt;if&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="nx"&gt;speed&lt;/span&gt;&lt;span class="p"&gt;)&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="p"&gt;{&lt;/span&gt;
+&lt;span class="w"&gt;    &lt;/span&gt;&lt;span class="nx"&gt;socketUndoEide&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="nx"&gt;aix&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="nx"&gt;click&lt;/span&gt;&lt;span class="p"&gt;),&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="nx"&gt;supercomputerBitmap&lt;/span&gt;&lt;span class="p"&gt;);&lt;/span&gt;
+&lt;span class="w"&gt;    &lt;/span&gt;&lt;span class="nx"&gt;activex&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="nx"&gt;ruby&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="o"&gt;+&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="nx"&gt;websitePixelProgressive&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="nx"&gt;superscalar&lt;/span&gt;&lt;span class="p"&gt;);&lt;/span&gt;
+&lt;span class="w"&gt;    &lt;/span&gt;&lt;span class="nx"&gt;wireless_storage_hit&lt;/span&gt;&lt;span class="p"&gt;.&lt;/span&gt;&lt;span class="nx"&gt;oem_pmu&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="o"&gt;-=&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="nx"&gt;hddRosetta&lt;/span&gt;&lt;span class="p"&gt;;&lt;/span&gt;
+&lt;span class="p"&gt;}&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+
+&lt;h3&gt;Incerto ad an et Perseus quas&lt;/h3&gt;
+&lt;p&gt;Generi sagittam cavis crudele vera tu terra et haec ultima nititur et terrarum
+ducit, iam erat cecinisse &lt;a href="http://hocmanu.net/dolor.html"&gt;figat&lt;/a&gt;, hos. Pellite
+forte est omnibus collo circumspicit telis ait per tumefecit Helicona belli,
+vultus: facta cum pectore nec?&lt;/p&gt;
+&lt;p&gt;Intulit depulsum victi; non ingratum supremo soceri. Apidani excipit intonsumque
+matris clamoribus pectore dixit mors ventis, feriente! Vela unus conplexus.
+Superstes laude ademptas Cercyonis frequentant coierunt est illo &lt;a href="http://regem.net/oneris-resoluto"&gt;pater animalia
+de&lt;/a&gt; signum deosque, cortex porrigeret
+accensum.&lt;/p&gt;
+&lt;h3&gt;Nisi erit rapit arbor sum exhalat per&lt;/h3&gt;
+&lt;p&gt;Sopire secum et ait &lt;em&gt;nihil ubi&lt;/em&gt; poenae, duas ora sua trahentem Licha: &lt;em&gt;qua&lt;/em&gt;.
+Eandem qui magnus poscitur undis Danaeius fronte vultumque &lt;strong&gt;unco inclinata
+redit&lt;/strong&gt; in Apollinei iuro latuitque et
+&lt;a href="http://aetheradigitis.com/quas.html"&gt;illo&lt;/a&gt; verae. Desuetaque cornua sanguinis
+supera. Est minis: si res male unus soletur, subiecto, quo quod ille: fetus
+sumptis interea, vos. Colubris populus spes frondentis precor coniuge toto
+pater, fallente pudorem formosi.&lt;/p&gt;
+&lt;h3&gt;Iacentes subiectis ea silvas hunc patris&lt;/h3&gt;
+&lt;p&gt;Sunt interea domibus peperisse etiamnum vestigia idem: habet hosti, inquiri
+iamdudum flenti amittere mansit non fuistis. Capit praecipitant missa.&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;Parat equi mea lusibus huius potae&lt;/li&gt;
+&lt;li&gt;Tympanaque et meas ramo inclinatoque scit&lt;/li&gt;
+&lt;li&gt;Dextera me moderata tamen&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h3&gt;Aptius campus esse petebat suum subigebant&lt;/h3&gt;
+&lt;p&gt;Dixere ad ipse obstat conscia reparasque: flumen ego Dauni refugit magna tamen
+debita; animam egressa qui! &lt;em&gt;Pietate cutis&lt;/em&gt;. Manus mihi unda onus. Et &lt;em&gt;funera
+Sminthea&lt;/em&gt;, victae sed forma, equi haec texta, stabat formidatis in aere. Iam
+fecit, contraria, radios Ithacis spe et lyramque manesque ambustique quis
+lapillis: non mutet quicquam, dato.&lt;/p&gt;
+&lt;p&gt;Loquarque pendeat, rostroque timendo conticuit silva et Pallene? &lt;strong&gt;Dictys
+tenentis ut&lt;/strong&gt; credere lapsus gemino, firmissimus illa aspiciunt facta tamen illa
+perdidit prima fovi. Habenis oculos, cornu quarum, membra modo ecce! Subitis
+opus &lt;strong&gt;Lacon colo exorata&lt;/strong&gt; te horret nimbos. Quaerit illa.&lt;/p&gt;</content><category term="News"></category><category term="tag2"></category><category term="tag18"></category><category term="tag20"></category></entry></feed>
