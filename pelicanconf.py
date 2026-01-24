@@ -1,7 +1,7 @@
 AUTHOR = 'Christofer Saputra'
 SITENAME = 'Christofer'
-SITEURL = 'https://chromium7.github.io/chromium7/'
-# SITEURL = 'http://127.0.0.1:8000/'
+# SITEURL = 'https://chromium7.github.io/chromium7/'
+SITEURL = 'http://127.0.0.1:8000/'
 
 PATH = 'content'
 
@@ -38,4 +38,4 @@ SOCIALS = [
 DEFAULT_PAGINATION = 3
 
 # Uncomment following line if you want document-relative URLs when developing
-#RELATIVE_URLS = True
+RELATIVE_URLS = True
