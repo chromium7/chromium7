@@ -1,15 +1,19 @@
-<h1 align="center">Hi 👋, I'm Christofer Saputra</h1>
-<h3 align="center">just a small time developer trying his best navigating through life 👨‍💻🎱🏃</h3>
+<h1 align="center">👋👋👋👋</h1>
+<h3 align="center">just a small time developer 👨‍💻🎱🏃🚴🏊‍♂️</h3>
 
 <p align="left"> <img src="https://komarev.com/ghpvc/?username=chromium7&label=Profile%20views&color=0e75b6&style=flat" alt="chromium7" /> </p>
 
+1 Corinthians 10:13
+> No temptation has overtaken you except what is common to mankind. And God is faithful; he will not let you be tempted beyond what you can bear. But when you are tempted, he will also provide a way out so that you can endure it.
+
+
 Check my [github page](https://chromium7.github.io/chromium7/)!
 
-- 🔭 I’m currently working on: golang projects
 
-- 🌱 I’m currently learning: **android development, billiards**
 
-- 👨‍💻 All of my projects are available at: [https://github.com/chromium7](https://github.com/chromium7)
+- 🔭 Building useful stuffs here
+
+- 🌱 Always learning new things
 
 - 📫 How to reach me: **christofersaputra29@gmail.com**
 
