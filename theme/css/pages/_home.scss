@@ -105,6 +105,25 @@ section {
       }
     }
 
+    .journey-timeline {
+      margin: 2vh 0;
+
+      .journey-item {
+        margin-bottom: 1.5vh;
+        font-size: 0.7em;
+
+        .journey-year {
+          font-weight: bold;
+          color: $green-primary;
+          margin-right: 0.5em;
+        }
+
+        .journey-description {
+          color: $light-secondary;
+        }
+      }
+    }
+
     @media only screen and (min-width: 768px) {
       height: 90vh;
       overflow: hidden;
