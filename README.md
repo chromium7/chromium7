@@ -17,13 +17,6 @@ Check my [github page](https://chromium7.github.io/chromium7/)!
 
 - 📫 How to reach me: **christofersaputra29@gmail.com**
 
-<h3 align="left">Connect with me:</h3>
-<p align="left">
-<a href="https://linkedin.com/in/christofer-saputra-722b1b186" target="blank">LinkedIn</a></p>
-<p>
-<a href="https://instagram.com/chromium_swe" target="blank">Instagram</a>
-</p>
-
 <h3 align="left">Languages and Tools:</h3>
 <p align="left">
 <a href="https://www.android.com" target="_blank">
