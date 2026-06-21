@@ -1,15 +1,30 @@
 AUTHOR = 'Christofer Saputra'
 SITENAME = 'Christofer'
-SITEURL = 'https://chromium7.github.io/chromium7/'
-# SITEURL = 'http://127.0.0.1:8000/'
+SITEURL = ''
+
+RELATIVE_URLS = True
 
 PATH = 'content'
+
+STATIC_PATHS = ['images', 'extra']
+EXTRA_PATH_METADATA = {
+    'extra/favicon.ico': {'path': 'favicon.ico'},
+}
+
+ARTICLE_PATHS = ['articles']
+ARTICLE_URL = 'blog/{slug}/'
+ARTICLE_SAVE_AS = 'blog/{slug}/index.html'
+PAGE_URL = 'pages/{slug}/'
+PAGE_SAVE_AS = 'pages/{slug}/index.html'
 
 THEME = 'themes/custom'
 
 TIMEZONE = 'Asia/Jakarta'
-
 DEFAULT_LANG = 'en'
+
+DEFAULT_METADATA = {
+    'description': '',
+}
 
 # Feed generation is usually not desired when developing
 FEED_ALL_ATOM = None
@@ -17,16 +32,6 @@ CATEGORY_FEED_ATOM = None
 TRANSLATION_FEED_ATOM = None
 AUTHOR_FEED_ATOM = None
 AUTHOR_FEED_RSS = None
-
-# Blogroll
-LINKS = (('Pelican', 'https://getpelican.com/'),
-         ('Python.org', 'https://www.python.org/'),
-         ('Jinja2', 'https://palletsprojects.com/p/jinja/'),
-         ('You can modify those links in your config file', '#'),)
-
-# Social widget
-SOCIAL = (('You can add links in your config file', '#'),
-          ('Another social link', '#'),)
 
 EMAIL = "christofersaputra29@gmail.com"
 
@@ -36,6 +41,3 @@ SOCIALS = [
 ]
 
 DEFAULT_PAGINATION = 3
-
-# Uncomment following line if you want document-relative URLs when developing
-# RELATIVE_URLS = True
